@@ -205,6 +205,21 @@ i{
   transform: translateX(0);
 }
 
+@media (max-width: 1024px){
+  .banner video{
+    display: none;
+  }
+
+  .banner{
+    background-image: url('../img/299154086_634327687899198_7394097715259100029_n.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+}
+
+
+
 @keyframes navLinkFade {
   from {
     opacity: 0;
